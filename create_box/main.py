@@ -40,5 +40,3 @@ def create_outline(height, width, character):
 create_outline(8,8,'^')
 
 
-    3
-st = line[:middle] + space + line[middle:]
