@@ -22,21 +22,21 @@ if __name__ == '__main__':
 
 
 
-def create_outline(height, width, character):
+# def create_outline(height, width, character):
 
-    num1 = 0
-    top = character * width
-    bottom = character * width
-    sides = (width - (width - 2)) * character
-    while num1 < height:
-        if num1 == 0:
-            print top
-        elif  num1 > 1 and num1 < height:
-            print ("sides")
-        else:
-            print ("bottom")
-        num1 += 1
+#     num1 = 0
+#     top = character * width
+#     bottom = character * width
+#     sides = (width - (width - 2)) * character
+#     while num1 < height:
+#         if num1 == 0:
+#             print top
+#         elif  num1 > 1 and num1 < height:
+#             print ("sides")
+#         else:
+#             print ("bottom")
+#         num1 += 1
 
-create_outline(8,8,'^')
+# create_outline(8,8,'^')
 
 
