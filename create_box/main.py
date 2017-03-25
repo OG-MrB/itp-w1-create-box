@@ -32,9 +32,13 @@ def create_outline(height, width, character):
         if num1 == 0:
             print top
         elif  num1 > 1 and num1 < height:
-            print sides
+            print ("sides")
         else:
-            print bottom
+            print ("bottom")
         num1 += 1
 
 create_outline(8,8,'^')
+
+
+    3
+st = line[:middle] + space + line[middle:]
