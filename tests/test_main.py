@@ -18,9 +18,9 @@ xxxxxxxxxxxxxxxxxxxxxxxx
 xxxxxxxxxxxxxxxxxxxxxxxx
 """.lstrip()
 
-fourth_box_expected = """
-'invalid'
-""".lstrip()
+#fourth_box_expected = """
+#'invalid'
+#""".lstrip()
 
 
 class TestCreateBox(unittest.TestCase):
